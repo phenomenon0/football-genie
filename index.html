@@ -2,13 +2,13 @@
 <html>
 <head>
     <title>Football Genie</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
   <div class="background"></div>
   <div class="container">
-      <img src="/becks.png" class="small-image" />
+      <img src="{{ url_for('static', filename='becks.png') }}" class="small-image" />
       <h1>Name the Icon</h1>
       <form action="/" method="post">
           <input type="text" name="animal" placeholder="Ask football questions" required>
