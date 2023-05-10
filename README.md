@@ -1,6 +1,6 @@
 
 
-    If you don’t have Python installed, install it from here.
+    If you don’t have Python installed, install it from https://www.python.org/downloads/
 
     Clone this repository.
 
