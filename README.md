@@ -1,3 +1,6 @@
+This application takes natural language query in the form of text and returns answes in the nature of a sports analyst
+i.e return a statistical table or comparison has seen in famous data websites 
+
 
 
     If you don’t have Python installed, install it from https://www.python.org/downloads/
@@ -27,4 +30,4 @@
 
     $ flask run
 
-You should now be able to access the app at http://localhost:5000! For the full context behind this example app, check out the tutorial.
+
